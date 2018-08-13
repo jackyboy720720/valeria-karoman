@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Paul') {
-    	message.reply('Wassup motherfuckers!');
+    if (message.content === 'Valeria') {
+    	message.reply('Markus, võta mind siin ja praegu!');
   	}
 });
 
