@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'Laul') {
-    	message.reply('!p jackie chan tiesto');
+    	message('!p jackie chan tiesto');
   	}
 });
 
