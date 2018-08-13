@@ -10,6 +10,11 @@ client.on('message', message => {
     	message.reply('Wassup motherfuckers!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Laul') {
+    	message.reply('!p jackie chan tiesto');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
