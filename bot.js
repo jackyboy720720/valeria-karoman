@@ -6,11 +6,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Valeria') {
+    if (message.content === 'Valeria1') {
     	message.reply('Markus, võta mind siin ja praegu!');
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Valeria') {
+    	message.reply('OMMMGGGG, Markus, kas sa vaatasid mu perset just väääää!!????!');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
